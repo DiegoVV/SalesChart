@@ -1,3 +1,9 @@
+.selector{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
 select{
-    
+    margin: 20px;
 }
