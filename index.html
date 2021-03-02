@@ -21,30 +21,66 @@
             <li style="margin: 0px 0px 0px 700px">Sales Report</li>
         </ul>
     </div>
-        <div class="selector">
-            <div>
-                <select id="category" name="category">
-                    <option value="placeholder1">Placeholder1</option>
-                    <option value="placeholder2">Placeholder2</option>
-                    <option value="placeholder3">Placeholder3</option>
-                </select>
-            </div>
-            <div>
-                <select id="product" name="product">
-                    <option value="placeholder1">Placeholder1</option>
-                    <option value="placeholder2">Placeholder2</option>
-                    <option value="placeholder3">Placeholder3</option>
-                </select>
-            </div>
-            <div>
-                <select id="brand" name="brand">
-                    <option value="placeholder1">Placeholder1</option>
-                    <option value="placeholder2">Placeholder2</option>
-                    <option value="placeholder3">Placeholder3</option>
-                </select>
-            </div>
+    <div class="selector">
+        <div>
+            <select onchange="change()" id="category" name="category">
+                <option value="placeholder1">Placeholder1</option>
+                <option value="placeholder2">Placeholder2</option>
+                <option value="placeholder3">Placeholder3</option>
+            </select>
         </div>
+        <div>
+            <select onchange="change()" id="product" name="product">
+                <option value="placeholder1">Placeholder1</option>
+                <option value="placeholder2">Placeholder2</option>
+                <option value="placeholder3">Placeholder3</option>
+            </select>
+        </div>
+        <div>
+            <select onchange="change()" id="brand" name="brand">
+                <option value="placeholder1">Placeholder1</option>
+                <option value="placeholder2">Placeholder2</option>
+                <option value="placeholder3">Placeholder3</option>
+            </select>
+        </div>
+    </div>
+    <div>
+        <table class="graph">
+            <caption>Sales by Month for:</caption>
+            <thead>
+                <tr>
+                    <th scope="row">Item</th>
+                    <th scope="row">Percent</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height:85%" id="january">
+                    <th scope="col">January</th>
+                    <td><span id="januarySpan">85%</span></td>
+                </tr>
+                <tr style="height:23%" id="february">
+                    <th scope="col">February</th>
+                    <td><span id="februarySpan">23%</span></td>
+                </tr>
+                <tr style="height:7%" id="march">
+                    <th scope="col">March</th>
+                    <td><span id="marchSpan">7%</span></td>
+                </tr>
+                <tr style="height:38%" id="april">
+                    <th scope="col">April</th>
+                    <td><span id="aprilSpan">38%</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div class="center">
+        <span class="center">Months</span>
+        <br><br><br><br>
+        <span class="dot" style="background-color: #5BF"></span>Sales
+    </div>
 
-    </body>
+
+</body>
 
 </html>
