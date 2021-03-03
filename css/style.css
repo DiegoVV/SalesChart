@@ -197,5 +197,10 @@ div {
         left: -40px;
         transform: rotate(-90deg);
     }
+    
+    .website{
+        position: absolute;
+        right: 20px;
+    }
 
 }
