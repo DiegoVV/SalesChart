@@ -65,7 +65,7 @@ div {
 }
 
 .graph caption {
-    font: bold 150%/120% arial, helvetica, sans-serif;
+    font: normal 150%/120% arial, helvetica, sans-serif;
     padding-bottom: 0.33em;
 }
 
@@ -193,9 +193,8 @@ div {
     
     .sidewaysText{
         position: absolute;
-        top: 47%;
-        left: -40px;
-        transform: rotate(-90deg);
+        top: 345px;
+        transform: rotate(270deg);
     }
     
     .website{
