@@ -190,5 +190,12 @@ div {
             opacity: 1;
         }
     }
+    
+    .sidewaysText{
+        position: absolute;
+        top: 47%;
+        left: -40px;
+        transform: rotate(-90deg);
+    }
 
 }
