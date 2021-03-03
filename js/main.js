@@ -24,7 +24,7 @@ function change() {
         februarySpan.innerHTML = "25%";
         marchSpan.innerHTML = "7%";
         aprilSpan.innerHTML = "38%";
-    }else if(category == 0 && product == 0 && brand == 1) {
+    } else if (category == 0 && product == 0 && brand == 1) {
         january.setAttribute("style", "height:25%");
         february.setAttribute("style", "height:53%");
         march.setAttribute("style", "height:37%");
@@ -33,7 +33,7 @@ function change() {
         februarySpan.innerHTML = "53%";
         marchSpan.innerHTML = "37%";
         aprilSpan.innerHTML = "18%";
-    }else if(category == 0 && product == 1 && brand == 0) {
+    } else if (category == 0 && product == 1 && brand == 0) {
         january.setAttribute("style", "height:55%");
         february.setAttribute("style", "height:33%");
         march.setAttribute("style", "height:3%");
@@ -43,7 +43,7 @@ function change() {
         marchSpan.innerHTML = "3%";
         aprilSpan.innerHTML = "48%";
 
-    }else if(category == 0 && product == 1 && brand == 1) {
+    } else if (category == 0 && product == 1 && brand == 1) {
         january.setAttribute("style", "height:15%");
         february.setAttribute("style", "height:13%");
         march.setAttribute("style", "height:17%");
@@ -53,7 +53,7 @@ function change() {
         marchSpan.innerHTML = "17%";
         aprilSpan.innerHTML = "48%";
 
-    }else if(category == 1 && product == 0 && brand == 0) {
+    } else if (category == 1 && product == 0 && brand == 0) {
         january.setAttribute("style", "height:27%");
         february.setAttribute("style", "height:33%");
         march.setAttribute("style", "height:31%");
@@ -63,8 +63,7 @@ function change() {
         marchSpan.innerHTML = "31%";
         aprilSpan.innerHTML = "8%";
 
-    }
-    else if(category == 1 && product == 0 && brand == 1) {
+    } else if (category == 1 && product == 0 && brand == 1) {
         january.setAttribute("style", "height:5%");
         february.setAttribute("style", "height:43%");
         march.setAttribute("style", "height:47%");
@@ -74,7 +73,7 @@ function change() {
         marchSpan.innerHTML = "47%";
         aprilSpan.innerHTML = "78%";
 
-    }else if(category == 1 && product == 1 && brand == 0) {
+    } else if (category == 1 && product == 1 && brand == 0) {
         january.setAttribute("style", "height:85%");
         february.setAttribute("style", "height:83%");
         march.setAttribute("style", "height:87%");
@@ -84,7 +83,7 @@ function change() {
         marchSpan.innerHTML = "87%";
         aprilSpan.innerHTML = "68%";
 
-    }else if(category == 1 && product == 1 && brand == 1) {
+    } else if (category == 1 && product == 1 && brand == 1) {
         january.setAttribute("style", "height:76%");
         february.setAttribute("style", "height:56%");
         march.setAttribute("style", "height:34%");

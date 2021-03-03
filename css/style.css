@@ -2,23 +2,27 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    font-size: 18px;
 }
 
-.selector div{
+.selector div {
     margin: 10px 200px;
 }
 
-@media only screen and (max-width: 1620px) {
-  /* For mobile phones: */
-  .selector div {
-    margin: 10px 100px;
-  }
+select {
+    font-size: 18px;
 }
-@media only screen and (max-width: 1015px) {
-  /* For mobile phones: */
-  .selector div {
-    margin: 10px 50px;
-  }
+
+@media only screen and (max-width: 1690px) {
+    .selector div {
+        margin: 10px 100px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .selector div {
+        margin: 10px 50px;
+    }
 }
 
 .title {
@@ -84,10 +88,6 @@ div {
             text-align: center;
         }
 
-        .graph thead {
-            display: none;
-        }
-
         .graph tbody {
             position: relative;
             display: grid;
@@ -138,6 +138,7 @@ div {
         .graph td {
             display: block;
             text-align: center;
+            font-size: 25px;
         }
 
         .graph tbody th {
